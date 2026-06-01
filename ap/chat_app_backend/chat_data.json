@@ -1,0 +1,303 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "What's up?"
+      ],
+      "responses": [
+        "👋 Hello! How can I help you today?",
+        "🤖 Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye", "Goodbye", "See you later"
+      ],
+      "responses": [
+        "Goodbye! Stay safe! 🛡️"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?", "What are you?", "Tell me about yourself", "What is your purpose?"
+      ],
+      "responses": [
+        "🤖 I’m your AI assistant for the Gas Leak Detection Project!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "How can you help me?", "I need help", "Can you assist me?"
+      ],
+      "responses": [
+        "🛠️ I can guide you on alerts, device control, and more!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?"
+      ],
+      "responses": [
+        "⛅ I focus on gas leaks, but you can check weather apps!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks"
+      ],
+      "responses": [
+        "😊 You're welcome!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke"
+      ],
+      "responses": [
+        "😂 Why did the CO sensor go to therapy? It had too many trust issues!"
+      ]
+    },
+    {
+      "tag": "gas_leak_alert",
+      "patterns": [
+        "How do I receive alerts?"
+      ],
+      "responses": [
+        "🚨 You’ll get app notifications + email via PHPMailer!"
+      ]
+    },
+    {
+      "tag": "check_history",
+      "patterns": [
+        "How to view gas history?"
+      ],
+      "responses": [
+        "📊 Open the 'History' tab in the app!"
+      ]
+    },
+    {
+      "tag": "monitor_status",
+      "patterns": [
+        "Can I track gas live?"
+      ],
+      "responses": [
+        "📡 Use the 'Live Monitoring' feature for real-time data!"
+      ]
+    },
+    {
+      "tag": "device_control",
+      "patterns": [
+        "How to control the device?"
+      ],
+      "responses": [
+        "🔄 Go to 'Device Control' in the app to restart/disable!"
+      ]
+    },
+    {
+      "tag": "ai_chat",
+      "patterns": [
+        "How to use the AI chat?"
+      ],
+      "responses": [
+        "💬 Click the chat icon at the bottom right!"
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "Contact support"
+      ],
+      "responses": [
+        "📧 Emails: srorr8872@gmail.com / mohamedmm6723423@gmail.com",
+        "📞 Phone: 01141572180 / 01556439792"
+      ]
+    },
+    {
+      "tag": "installation_guide",
+      "patterns": [
+        "How to install the sensor?"
+      ],
+      "responses": [
+        "🔧 Watch the tutorial video in the app’s 'Help' section!"
+      ]
+    },
+    {
+      "tag": "sensor_accuracy",
+      "patterns": [
+        "Is the sensor accurate?"
+      ],
+      "responses": [
+        "✅ Yes! It’s tested to detect leaks within seconds!"
+      ]
+    },
+    {
+      "tag": "emergency_steps",
+      "patterns": [
+        "What to do in emergency?"
+      ],
+      "responses": [
+        "⚠️ Evacuate, ventilate, and call emergency services!"
+      ]
+    },
+    {
+      "tag": "troubleshooting",
+      "patterns": [
+        "The app isn’t working"
+      ],
+      "responses": [
+        "🔌 Restart the app and check device connectivity!"
+      ]
+    },
+    {
+      "tag": "app_features",
+      "patterns": [
+        "What can the app do?"
+      ],
+      "responses": [
+        "📲 Features: Live monitoring, AI chat, alerts, history, and device control!"
+      ]
+    },
+    {
+      "tag": "data_privacy",
+      "patterns": [
+        "Is my data safe?"
+      ],
+      "responses": [
+        "🔒 Your data is encrypted and 100% secure!"
+      ]
+    },
+    {
+      "tag": "notification_setup",
+      "patterns": [
+        "How to enable alerts?"
+      ],
+      "responses": [
+        "⚙️ Go to 'Settings' > 'Notifications' to customize!"
+      ]
+    },
+    {
+      "tag": "device_compatibility",
+      "patterns": [
+        "Does it work with my phone?"
+      ],
+      "responses": [
+        "📱 Yes! Compatible with iOS 12+ and Android 8+!"
+      ]
+    },
+    {
+      "tag": "subscription_plans",
+      "patterns": [
+        "Is there a premium version?"
+      ],
+      "responses": [
+        "💎 Premium offers advanced analytics and priority support!"
+      ]
+    },
+    {
+      "tag": "user_manual",
+      "patterns": [
+        "Where is the user guide?"
+      ],
+      "responses": [
+        "📚 Download it from the app’s 'Help' section!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How to submit feedback?"
+      ],
+      "responses": [
+        "🌟 Rate us in the app store or via the 'Feedback' section!"
+      ]
+    },
+    {
+      "tag": "battery_status",
+      "patterns": [
+        "How long does the device battery last?", "Is the sensor battery replaceable?"
+      ],
+      "responses": [
+        "🔋 The battery lasts up to 6 months. Replace it via the back panel!"
+      ]
+    },
+    {
+      "tag": "calibration",
+      "patterns": [
+        "How to calibrate the sensor?", "Is calibration needed?"
+      ],
+      "responses": [
+        "⚖️ Calibrate monthly via the app’s 'Settings' > 'Calibration'."
+      ]
+    },
+    {
+      "tag": "updates",
+      "patterns": [
+        "How to update the app?", "Is there a new firmware version?"
+      ],
+      "responses": [
+        "🔄 Updates are automatic. Enable 'Auto-Update' in settings!"
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "What’s the warranty period?", "How to claim warranty?"
+      ],
+      "responses": [
+        "📜 Warranty: 2 years. Contact support with the purchase invoice."
+      ]
+    },
+    {
+      "tag": "smart_home",
+      "patterns": [
+        "Does it work with Google Home?", "Can I connect it to Alexa?"
+      ],
+      "responses": [
+        "🏠 Yes! Follow the steps in the 'Integrations' section of the app."
+      ]
+    },
+    {
+      "tag": "premium_details",
+      "patterns": [
+        "What’s included in premium?"
+      ],
+      "responses": [
+        "💎 Premium features: Advanced analytics, 24/7 support, and custom alerts!"
+      ]
+    },
+    {
+      "tag": "certifications",
+      "patterns": [
+        "Is the device certified?", "What safety standards does it meet?"
+      ],
+      "responses": [
+        "📜 Certified by ISO 9001 and CE. Safety is our priority!"
+      ]
+    },
+    {
+      "tag": "accessibility",
+      "patterns": [
+        "Does the app support screen readers?"
+      ],
+      "responses": [
+        "♿ Yes! The app is compatible with VoiceOver and TalkBack."
+      ]
+    },
+    {
+      "tag": "offline",
+      "patterns": [
+        "Does the app work offline?"
+      ],
+      "responses": [
+        "📴 Basic features work offline, but alerts require internet!"
+      ]
+    }
+  ]
+}

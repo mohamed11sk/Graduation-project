@@ -1,0 +1,6 @@
+//add icon 
+flutter pub run flutter_launcher_icons:main 
+
+//flutter realease
+flutter build apk --split-per-abi
+

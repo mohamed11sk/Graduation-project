@@ -1,0 +1,2 @@
+C:/Users/dell/Desktop/ap/android/app/.cxx/Debug/n4k5cm2s/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/dell/Desktop/ap/android/app/.cxx/Debug/n4k5cm2s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
